@@ -1,0 +1,19 @@
+REFLEXIÓN DE LA SEMANA 7
+=========================
+
+Es muy importante que las comunidades puedan registrar y consultar reportes
+en una plataforma tecnológica porque esto permite organizar la información
+de manera clara y accesible para todos. Cuando un ciudadano puede registrar
+una incidencia como un daño en la vía o un problema ambiental, esa información
+queda guardada y puede ser consultada por las autoridades correspondientes.
+
+Contar con rutas GET y POST en una API permite que el sistema sea dinámico:
+los ciudadanos envían información y las instituciones pueden consultarla en
+cualquier momento. Esto agiliza la atención de problemas y evita que los
+reportes se pierdan o queden sin respuesta.
+
+Además, tener los datos organizados en listas permite identificar cuáles son
+los problemas más frecuentes en una comunidad y tomar decisiones basadas en
+información real. De esta manera, la tecnología se convierte en una herramienta
+de participación ciudadana que fortalece la relación entre la comunidad y
+las instituciones que la sirven.

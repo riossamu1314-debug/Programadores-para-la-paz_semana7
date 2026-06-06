@@ -1,0 +1,38 @@
+PRUEBA DE LAS RUTAS /reportes
+==============================
+
+Primero se envió una petición POST a http://localhost:3000/reportes con este JSON:
+
+{
+  "tipo": "Infraestructura",
+  "descripcion": "Daño en alumbrado público"
+}
+
+El servidor respondió con:
+
+{
+  "mensaje": "Reporte registrado",
+  "reporte": {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+}
+
+Luego se consultó la ruta GET http://localhost:3000/reportes y el servidor
+devolvió la lista con todos los reportes registrados:
+
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+]
+
+Explicación:
+El servidor guarda cada reporte en un array llamado "reportes" en memoria.
+Cada vez que se hace POST se agrega un nuevo reporte a la lista con un id
+único. Cuando se hace GET el servidor devuelve toda la lista acumulada.
+Si el servidor se reinicia, la lista vuelve a estar vacía porque los datos
+solo se guardan en memoria, no en una base de datos.
